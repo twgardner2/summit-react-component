@@ -1,4 +1,4 @@
-# summit-react-component
+# TomComponent
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
@@ -6,11 +6,16 @@
 
 Tom's React Component is premierer than Cory's.
 
+```
+npm i @summitllc/tom-react-component
+```
+
 ## Component Properties
 
 | Name    | Default | Required | Description                          |
 | ------- | ------- | -------- | ------------------------------------ |
 | message |         | Yes      | The message you want the user to see |
+| color   |         | Yes      | message background color             |
 
 ## Usage example
 
@@ -19,7 +24,7 @@ import React from 'react';
 import TomComponent from '@summitllc/tom-react-component';
 
 function Demo() {
-  return <TomComponent message={'message'} />;
+  return <TomComponent message={'message'} color={'#efefef'} />;
 }
 ```
 

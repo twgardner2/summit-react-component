@@ -8,7 +8,7 @@ class Demo extends Component {
     return (
       <div>
         <h1>summit-react-component Demo</h1>
-        <Example message={'this is a message'} />
+        <Example message={'this is a message'} color={'#efefef'} />
       </div>
     );
   }

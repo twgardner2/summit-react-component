@@ -5,7 +5,9 @@ export default class extends Component {
     return (
       <div>
         <h2>Welcome to React components</h2>
-        <h3>{this.props.message}</h3>
+        <h3 style={{ backgroundColor: this.props.color }}>
+          {this.props.message}
+        </h3>
       </div>
     );
   }
